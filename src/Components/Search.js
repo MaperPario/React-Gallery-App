@@ -45,10 +45,10 @@ class Search extends Component {
   
   render() {
     return(
-      <div class="container">
+      <div className="container">
         <SearchForm onSearch={this.changeRouteWithSearch} />
         <Nav />
-        <div class="photo-container">
+        <div className="photo-container">
           {
             (this.state.loading)
             ? <p>Loading...</p>

@@ -1,6 +1,7 @@
 import React, { Component }from 'react';
 import './index.css';
 import Search from './Components/Search';
+import FourOhFour from './Components/404'
 import {
   Redirect,
   BrowserRouter,
@@ -18,6 +19,10 @@ class App extends Component {
             <Route exact path="/">
               <Redirect to="/search/cats" />
             </Route>
+            <Route path="/search" component={Search}>
+              <Redirect to="/search/cats" />
+            </Route>
+            <Route component={FourOhFour}/>
           </Switch>
       </BrowserRouter>
     );

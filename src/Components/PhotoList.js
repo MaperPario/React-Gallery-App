@@ -9,7 +9,7 @@ const PhotoList = props => {
   if (results.length) {
     photos = results.map(photo => <Photo url={`https://live.staticflickr.com/${photo.server}/${photo.id}_${photo.secret}.jpg`} key={photo.id} />);    
   } else {
-    photos = <NotFound />
+    photos = <NotFound query={props.query} />
   }
   
   return(
