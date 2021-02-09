@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+//SearchForm Component handling state of the searchText by changing it to whatever user types into search form.
 class SearchForm extends Component {
   
   state = {
@@ -16,6 +17,7 @@ class SearchForm extends Component {
     e.currentTarget.reset();
   }
   
+  //renders form with search icon. allows for onSubmit to be used.
   render() {  
     return (
       <form className="search-form" onSubmit={this.handleSubmit}>

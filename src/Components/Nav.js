@@ -3,6 +3,7 @@ import {
   NavLink
 } from "react-router-dom";
 
+//nav buttons for cats, dogs and birds
 const Nav = () => (
   <nav className="main-nav">
     <ul>

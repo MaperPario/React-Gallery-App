@@ -1,3 +1,4 @@
+//Importing all appropriate modules, files and dependencies.
 import React, { Component }from 'react';
 import './index.css';
 import Search from './Components/Search';
@@ -9,6 +10,7 @@ import {
   Route
 } from "react-router-dom";
 
+//Main route container
 class App extends Component {
 
   render() {
@@ -22,7 +24,10 @@ class App extends Component {
             <Route path="/search" component={Search}>
               <Redirect to="/search/cats" />
             </Route>
-            <Route component={FourOhFour}/>
+            <Route path="/404" component={FourOhFour} />
+            <Route >
+              <Redirect to="/404" />
+            </Route>
           </Switch>
       </BrowserRouter>
     );
