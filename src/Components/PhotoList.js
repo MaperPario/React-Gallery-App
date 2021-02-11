@@ -6,7 +6,6 @@ import NotFound from './NotFound';
 rendering the NotFound component when there aren't results*/
 
 const PhotoList = props => {
-  
   const results = props.data;
   const photos = results.length ?
     results.map(photo => {

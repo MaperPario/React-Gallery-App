@@ -37,6 +37,9 @@ class Search extends Component {
 
   //perform search function, calling Flickr API, setting state of photos based off the query, and catches errors.
   performSearch = () => {
+    this.setState({
+      loading: true
+    })
     const query = this.props.match.params.searchText;
     axios.get(`https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=${flickrAPIKey}&tags=${query}&per_page=24&format=json&nojsoncallback=1`)
       .then(response => {
