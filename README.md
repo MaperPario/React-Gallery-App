@@ -1,4 +1,4 @@
-# react_gallery_app_project_7
+# react_gallery_app
  My Seventh FSJS TechDegree Project! 
 
 What Does This App Do?
