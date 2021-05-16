@@ -3,7 +3,7 @@ import SearchForm from './SearchForm';
 import PhotoList from './PhotoList';
 import Nav from './Nav';
 import axios from 'axios';
-import flickrAPIKey from '../config';
+import flickrAPIKey from './config';
 
 //Main page component, handling state and passing throughout application;
 
