@@ -1,5 +1,7 @@
 # [React Gallery App](https://jackson-hagin-portfolio.herokuapp.com/projects/5)
 
+^^^ Opens using Heroku Free Version, so may be slow initially ^
+
 *An image gallery web application built in React for fast and modular image searches via a popular image API.*
 
 Instructions for running:
