@@ -4,14 +4,23 @@
 
 *An image gallery web application built in React for fast and modular image searches via a popular image API.*
 
-Instructions for running:
-1. In your terminal, navigate to the application's directory.
-2. Run "npm install", to install the project's dependencies.
-3. Make a new file within the root folder and name it "config.js".
-4. Within this file, create a variable named "flickrAPIKey" and set it equal to your Flickr API Key as a string.
-5. Export this file using "export default flickrAPIKey;"
-6. Run NPM Start and your application should load in port: localhost:3000 if you don't have anything else running on that port.
-7. Use the App!
+In the project directory, you can run:
+### `npm install`
+
+Make sure you run 'npm install' on both the client and api
+in order to get the proper dependencies installed before
+running 'npm start'
+
+### `npm start`
+
+Runs the app in the development mode.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.
+You will also see any lint errors in the console.
+
+Also, make sure to navigate in another terminal to the "/api" folder and
+run 'npm start' here.
 
 Built With:
 - HTML
