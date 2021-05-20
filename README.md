@@ -12,11 +12,11 @@ Instructions for running:
 7. Use the App!
 
 Built With:
-- Node
-- React
 - HTML
 - CSS
 - JavaScript
+- Node
+- React
 
 License:
 ISC
