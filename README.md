@@ -12,9 +12,7 @@ Instructions for running:
 7. Use the App!
 
 Built With:
-- Node
-- Express
-- Pug
+- React
 - HTML
 - CSS
 - JavaScript
