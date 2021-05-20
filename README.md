@@ -1,8 +1,6 @@
-# react_gallery_app
- My Seventh FSJS TechDegree Project! 
+# [React Gallery App](https://jackson-hagin-portfolio.herokuapp.com/projects/5)
 
-What Does This App Do?
-- Presents a gallery of photos, 24 of them to be exact based on the users search using the Flickr API.
+*An image gallery web application built in React for fast and modular image searches via a popular image API.*
 
 Instructions for running:
 1. In your terminal, navigate to the application's directory.
@@ -12,3 +10,17 @@ Instructions for running:
 5. Export this file using "export default flickrAPIKey;"
 6. Run NPM Start and your application should load in port: localhost:3000 if you don't have anything else running on that port.
 7. Use the App!
+
+Built With:
+- Node
+- Express
+- Pug
+- HTML
+- CSS
+- JavaScript
+
+License:
+ISC
+
+Acknowledgments:
+- Team TreeHouse
